@@ -1,0 +1,17 @@
+* This folder should be symlinked to ~chrome~ within the ~chrome_debugger_profile~ folder of whatever desired firefox profile folder on the end machine in question
+- for example, ~/home/<username>/snap/firefox/common/.mozilla/firefox/u0ydvhy5d.default/chrome_debugger_profile/chrome~
+- additionally, ~prefs.js~ within the debugger folder must contain the line ~user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);~
+  - this may already exist in the file
+
+
+** present content
+:PROPERTIES:
+:CREATED:  [2023-11-19 Sun 11:05]
+:END:
+- at present, the content in userContent.css enables highlighting of the userChrome.css part of the chrome debugger profile once the debugging tool is opened with ~Ctrl+Alt+Shift+I~
+
+** Enabling this
+:PROPERTIES:
+:CREATED:  [2023-11-19 Sun 11:06]
+:END:
+- 

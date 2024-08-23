@@ -1,0 +1,11 @@
+#urlbar-wrapper {
+  height: 36px !important; 
+  margin-bottom: -12px !important;
+}
+#urlbar {
+  margin-top: -12px !important;
+}
+
+#tab-background {   max-height: 32px !important;}
+:root { --tab-min-height: 32px !important;
+    --tab-max-height: 32px !important;}
